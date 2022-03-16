@@ -3,7 +3,7 @@
 /**
 * print_to_98 - prints all natural numbers from n to 98
 * Numbers must be separated by a comma, followed by a space
-* Numbers should be printed in order 
+* Numbers should be printed in order
 * 1st printed number should be the number passed to the function
 * last number should be 98
 */
