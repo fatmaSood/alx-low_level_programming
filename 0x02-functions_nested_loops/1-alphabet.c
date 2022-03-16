@@ -1,34 +1,21 @@
 #nclude "main.h"
 /**
-
- * main - check the code
-
- *
-
+ * main function that prints the alphabet, in lowercase, followed by a new line.
  * Return: Always 0.
-
  */
-int main(void)
+void alphabet(void)
+{
 char ch;
-
-
-
 	ch = 'a';
-
-
-
 	while (ch <= 'z')
-
 	{
-
-		_putchar(ch);
-
+	_putchar(ch);
 		ch++;
-
+	
 	}
-
-
-
-	_putchar('\n');
-
 }
+	int main()
+	{
+	_putchar('\n');
+		return (0);
+	}
