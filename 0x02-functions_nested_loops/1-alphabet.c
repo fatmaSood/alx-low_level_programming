@@ -3,7 +3,7 @@
  * main function that prints the alphabet, in lowercase, followed by a new line.
  * Return: Always 0.
  */
-void alphabet(void)
+void print_alphabet(void)
 {
 char ch;
 	ch = 'a';
@@ -11,7 +11,6 @@ char ch;
 	{
 	_putchar(ch);
 		ch++;
-	
 	}
 	_putchar('\n');
 }
